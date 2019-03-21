@@ -1,0 +1,5 @@
+{
+    "require": {
+        "signalwire/signalwire": "^1.1"
+    }
+}
