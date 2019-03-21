@@ -2,19 +2,19 @@
 use SignalWire\Rest\Client;
 require('./vendor/autoload.php');
 /*Space URL*/
-$_ENV['SIGNALWIRE_API_HOSTNAME'] = "extreme.signalwire.com";
+$_ENV['SIGNALWIRE_API_HOSTNAME'] = "example.signalwire.com";
 
 /*Space URL*/
-putenv("SIGNALWIRE_API_HOSTNAME=extreme.signalwire.com");
+putenv("SIGNALWIRE_API_HOSTNAME=example.signalwire.com");
 
 /*Application Sid*/
-define("APPLICATION_SID","1beff68a-ce9d-4e4b-adcd-026e77e56522d");
+define("APPLICATION_SID","xxxxxxxx-xxxxx-xxxx-xxxx-xxxxxxxxx");
 
 /*Project Key*/
-$project = '41da2150-44e2-4bb7-a15a-d350a5ee34584';
+$project = 'xxxxxxxxx-xxxxxxx-xxxxxx-xxxxx-xxxxx';
 
 /*Project Token*/
-$token = 'PT3adf9434545622cf2707f51c15d0ca421286c3e3c531897884';
+$token = 'PTxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 /*Numbers File Name With Path*/
 $fileName="numbers.txt";
